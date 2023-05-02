@@ -22,6 +22,7 @@ public class ReverseArrayTest {
         int[] actualArray=reverseArray.reverseTheArray(arr);
         int[] expectedArray={3,3,2,2,1,1};
         Assert.assertArrayEquals(expectedArray,actualArray);
+//        Assert.asserEquals(expectedArray,actualArray);
 
     }
 
